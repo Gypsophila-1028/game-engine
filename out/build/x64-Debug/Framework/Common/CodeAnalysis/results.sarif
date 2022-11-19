@@ -1,0 +1,173 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/common/baseapplication.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a9bb56f844e3ad70a0bc9d6b86af6a46b1afd10f3f96b93ef6a5bb9d963c566d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/common/baseapplication.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e02c28e24658f35fa9cd5e4b24ec87366d86981dafd1b8107415c531bbe198a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iapplication.hpp"
+          },
+          "hashes": {
+            "sha-256": "70c15d0caa7fa3548883afd3cae6779eece2eb0ff19ead0d8d7ebd955071ed3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/interface.hpp"
+          },
+          "hashes": {
+            "sha-256": "b9f39d7a03dce69c154dcabe9fd283629af15e0b7cdd1c85f0688ec454d463f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iruntimemodule.hpp"
+          },
+          "hashes": {
+            "sha-256": "f6d8571a202da4f228aaef8280186745b2f0b4153f07112fb79c0e4058270a99"
+          }
+        }
+      ]
+    },
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/common/graphicsmanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "5cf5e7f3a5958797a0d5babf47f52d5e79c21cab741f877d88be65165711c448"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/common/graphicsmanager.hpp"
+          },
+          "hashes": {
+            "sha-256": "ee5d0d6b1aaa8d6107081521c8bb32826e66eb890cb16aaad595921bc04d91a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iruntimemodule.hpp"
+          },
+          "hashes": {
+            "sha-256": "f6d8571a202da4f228aaef8280186745b2f0b4153f07112fb79c0e4058270a99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/interface.hpp"
+          },
+          "hashes": {
+            "sha-256": "b9f39d7a03dce69c154dcabe9fd283629af15e0b7cdd1c85f0688ec454d463f0"
+          }
+        }
+      ]
+    },
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/common/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "49825b6771a0308c6b0e11130c2b7d2b3c3833dc3b068f0343293e6f5be73e26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iapplication.hpp"
+          },
+          "hashes": {
+            "sha-256": "70c15d0caa7fa3548883afd3cae6779eece2eb0ff19ead0d8d7ebd955071ed3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/interface.hpp"
+          },
+          "hashes": {
+            "sha-256": "b9f39d7a03dce69c154dcabe9fd283629af15e0b7cdd1c85f0688ec454d463f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iruntimemodule.hpp"
+          },
+          "hashes": {
+            "sha-256": "f6d8571a202da4f228aaef8280186745b2f0b4153f07112fb79c0e4058270a99"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+D:/project/game-engine/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/project/game-engine/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Framework/CMakeFiles/edit_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Framework/CMakeFiles/rebuild_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Framework/Common/CMakeFiles/Common.dir
+D:/project/game-engine/out/build/x64-Debug/Framework/Common/CMakeFiles/edit_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Framework/Common/CMakeFiles/rebuild_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Empty/CMakeFiles/Empty.dir
+D:/project/game-engine/out/build/x64-Debug/Empty/CMakeFiles/edit_cache.dir
+D:/project/game-engine/out/build/x64-Debug/Empty/CMakeFiles/rebuild_cache.dir

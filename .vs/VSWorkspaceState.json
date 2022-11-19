@@ -6,11 +6,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\Platform",
-    "\\Platform\\Windows",
-    "\\Platform\\Windows\\DirectXMath"
+    ""
   ],
-  "SelectedNode": "\\Platform\\Windows\\math.h",
+  "SelectedNode": "\\D:\\project\\game-engine\\CMakeLists.txt\\Common.lib (Framework\\Common\\Common.lib)\\BaseApplication.cpp",
   "PreviewInSolutionExplorer": false
 }

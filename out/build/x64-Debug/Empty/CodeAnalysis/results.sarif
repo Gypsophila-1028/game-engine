@@ -1,0 +1,102 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 My::BaseApplication::m_bQuit。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/project/game-engine/Framework/Common/BaseApplication.hpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 9,
+                  "endLine": 17,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "My::BaseApplication::{ctor}",
+                  "decoratedName": "??0BaseApplication@My@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "My::BaseApplication::m_bQuit"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/project/game-engine/Framework/Common/BaseApplication.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3e02c28e24658f35fa9cd5e4b24ec87366d86981dafd1b8107415c531bbe198a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/empty/emptyapplication.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "25610191e16c06b4d25cb282f3cd0d81477f89202a46512ee3f2ce7c5a9f90ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iapplication.hpp"
+          },
+          "hashes": {
+            "sha-256": "70c15d0caa7fa3548883afd3cae6779eece2eb0ff19ead0d8d7ebd955071ed3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/interface.hpp"
+          },
+          "hashes": {
+            "sha-256": "b9f39d7a03dce69c154dcabe9fd283629af15e0b7cdd1c85f0688ec454d463f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/game-engine/framework/interface/iruntimemodule.hpp"
+          },
+          "hashes": {
+            "sha-256": "f6d8571a202da4f228aaef8280186745b2f0b4153f07112fb79c0e4058270a99"
+          }
+        }
+      ]
+    }
+  ]
+}
